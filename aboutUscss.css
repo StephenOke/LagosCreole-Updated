@@ -1,0 +1,126 @@
+html {
+    background-color: #447076;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Header Styles */
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #583f8d;
+}
+
+.headerImage {
+    display: flex;
+  
+    justify-content: space-between;
+    width: 100px;
+    height: auto;
+}
+/* sections Styles */
+section{
+    align-items: center;
+}
+/* Navigation Styles */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2d5675;
+}
+/* Button Styles */
+button {
+    background-color: #2d5675;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a3b4d;
+}
+.bridgeButton {
+    margin-top: 10%;
+    margin-left: 45%;
+    width: 200px;
+    height: 100px;
+}
+/* About Us Styles */
+.mission {
+    padding-left: 5em;
+    margin-left: 10%;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    padding: 2em;
+    border-radius: 20px;
+    background-color: #00549F;
+}
+
+.aboutUsImages {
+    float: center;
+}
+/* footer styles */
+footer {
+    color: aliceblue;
+    font-size: xx-small;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    background: linear-gradient(345deg, rgb(68, 139, 164), rgb(21, 35, 21) 80%);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding-inline: 2%;
+}
+.iconImages {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.iconImages li {
+    margin: 0 10px;
+}
+
+.iconImages img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}

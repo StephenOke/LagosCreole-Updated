@@ -1,0 +1,179 @@
+/* General Styles */
+html {
+    height: 100%;
+    background-color: #447076;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg-custom-color{
+    background-color: #447076;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #583f8d;
+}
+
+.headerImage {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2d5675;
+}
+
+/* Main Container Styles */
+.maincontainer {
+    position: relative;
+    display: inline-block;
+}
+.maincontainer:hover .hoverText1 {
+    visibility: visible;
+    opacity: 1;
+}
+/* WLECOME SIgn */
+.text-shadow {
+    text-shadow: 2px 4px 4px rgba(129, 30, 30, 0.5);
+}
+.lagos{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(255, 215, 0, 0.8);
+}
+.creole{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF6347;
+    text-shadow: 2px 2px 4px rgba(255, 99, 71, 0.8);
+}
+
+/* Button Styles */
+button {
+    background-color: #2d5675;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1a3b4d;
+}
+.bridgeButton {
+    margin-top: 10%;
+    margin-left: 45%;
+    width: 200px;
+    
+}
+.slogan {
+    font-size: smaller;
+    font-style: italic;
+}
+.SloganDesign{
+    text-align: center;
+}
+
+/* Section and Image Styles */
+section img {
+    padding-top: 3%;
+    width: 100%;
+    display: inline;
+    padding-inline: 5em;
+}
+
+figcaption {
+    padding: 1%;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #010d0f;
+    text-shadow: #13a140 5px 0 40px;
+}
+
+
+
+.hoverText1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: large;
+    visibility: hidden;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Footer Styles */
+footer {
+    color: aliceblue;
+    font-size: xx-small;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    background: linear-gradient(345deg, rgb(68, 139, 164), rgb(21, 35, 21) 80%);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding-inline: 2%;
+}
+.iconImages {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.iconImages li {
+    margin: 0 10px;
+}
+
+.iconImages img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+
+

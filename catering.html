@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="image/Lagos Creole.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagos Creole</title>
+  <link href="cateringcss.css" rel="stylesheet">
+  <style>
+    /* body {
+      background: linear-gradient(345deg, rgb(76, 110, 122), rgb(63, 84, 63) 80%);
+    } */
+  </style>
+</head>
+<body>
+  <header>
+    <img class="headerImage" src="image/Lagos Creole.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menujs.html">Menu</a></li>
+        <li><a href="catering.html">Catering</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a  href="menujs.html">
+          <button><em>ORDER HERE</em></button>
+        </a></li>
+      </ul>
+      
+    </nav>
+    
+  </header>
+  
+  <form method="post">
+    <fieldset>
+      <legend><strong>Enter YOUR INFORMATION</strong></legend>
+      <br>
+      <label for="first-name"><strong>Enter Your First Name:</strong></label>
+      <input id="first-name" name="first-name" type="text" required>
+      <br><br>
+      <label for="last-name"><strong>Enter Your Last Name:</strong></label>
+      <input id="last-name" name="last-name" type="text" required>
+      <br><br>
+      <label for="email"><strong>Enter Your Email:</strong></label>
+      <input id="email" name="email" type="email" required>
+    </fieldset>
+    
+    <fieldset class="Contact">
+      <legend>HOW WOULD YOU LIKE TO BE CONTACTED? (required)</legend>
+      <br>
+      <label for="contact-email"><input id="contact-email" type="radio" name="contact-method" value="Email" class="inline"> <strong>Email</strong></label>
+      <label for="contact-text"><input id="contact-text" type="radio" name="contact-method" value="Text" class="inline"> <strong>Text</strong></label>
+      <label for="contact-call"><input id="contact-call" type="radio" name="contact-method" value="Call" class="inline"> <strong>Call</strong></label>
+      <label for="contact-all"><input id="contact-all" type="radio" name="contact-method" value="All" class="inline" checked> <strong>All</strong></label>
+    </fieldset>
+    
+    <fieldset>
+      <legend><strong>INFORMATION ABOUT YOUR EVENT</strong></legend>
+      <br>
+      <label for="event-flyer"><strong>If You Have Your Event Flyer Or a List of Items You Would Like, Please Attach:</strong></label>
+      <input id="event-flyer" type="file" name="file">
+      <br><br>
+      <label for="attendees"><strong>How Many People are Coming? (Max is 100):</strong></label>
+      <input id="attendees" type="number" name="attendees" min="2" max="100">
+      <br><br>
+      <label for="referrer"><strong>How Did You Hear About Us?</strong></label>
+      <select id="referrer" name="referrer">
+        <option value="">(select one)</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Friend">Friend(s)</option>
+        <option value="Food">You Smelled Our Delicious Food</option>
+        <option value="Stephen">Stephen Told You</option>
+      </select>
+      <br><br>
+      <label for="additional-info"><strong>Add Any Other Information You Want Us to Know:</strong></label>
+      <br>
+      <textarea id="additional-info" name="additional-info" rows="3" cols="30" placeholder="*Insert Westside Gunn Lyrics*"></textarea>
+    </fieldset>
+    
+    <label for="terms-and-conditions">
+      <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+    </label>
+    <br><br>
+    <button type="submit" class="formButton">SUBMIT</button>
+  </form>
+  
+  <footer>
+    <p>COME VISIT US.... Call us... (123)-456-7689</p>
+    <p>© Copyright 2023. All Rights Reserved.</p>
+    
+    <h4>Follow Us</h4>
+    <ul class="iconImages">
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=100087972676512" target="_blank" title="Facebook">
+          <img class="icon" src="image/facebookLogo.png" alt="Facebook Logo">
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/LaunchPad_LEH" target="_blank" title="Twitter">
+          <img class="icon" src="image/twitterLogo.png" alt="Twitter Logo">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/launchpad_lehman/" target="_blank" title="Instagram">
+          <img class="icon" src="image/instagramLogo.jpeg" alt="Instagram Logo">
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>

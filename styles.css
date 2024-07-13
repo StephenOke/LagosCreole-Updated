@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d5675;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    background-color: #583f8d;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2d5675;
+}
+
+/* Icon Cart */
+svg {
+    width: 30px;
+}
+
+.icon-cart {
+    position: relative;
+}
+
+.icon-cart span {
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #2d5675;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a3b4d;
+}
+
+/* Product Container */
+.container {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.foodImage, .container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+.hoverText1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.container:hover .hoverText1 {
+    display: block;
+}
+
+/* Sections */
+.Breakfast, .Lunch, .Dinner {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.listProduct {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 5%;
+    padding-top: 5px;
+    color: aliceblue;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    background: linear-gradient(345deg, rgb(68, 139, 164), rgb(21, 35, 21) 80%);
+}
+
+footer ul li {
+    display: inline-block;
+    padding-inline: 2%;
+}
+
+.icon {
+    padding-left: 2%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+/* Catering Styles */
+form {
+    text-align: center;
+    width: 50%;
+    border-color: #033036;
+    margin-left: 25%;
+    padding-top: 10%;
+    display: inline-block;
+}
+
+.formButton {
+    width: 6em;
+}
+
+.Contact {
+    display: inline;
+    padding: 10%;
+}
+
+/* About Us Styles */
+.mission {
+    display: inline-block;
+    text-align: center;
+    width: 20em;
+    margin: 20px;
+    padding: 3em;
+    border-radius: 20px;
+    background-color: #00549F;
+}
+
+.aboutUsImages {
+    float: right;
+    float: inline-start; /* This seems incorrect; consider removing */
+}
+
+html {
+    background-color: #447076;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+}
+
+/* Cart Tab */
+.cartTab {
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+
+body.showCart .cartTab {
+    right: 0;
+}
+
+body.showCart .container {
+    transform: translateX(-250px);
+}
+
+.cartTab h1 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1px;
+}
+
+.cartTab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab button {
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .close {
+    background-color: #eee;
+}
+
+.listCart {
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.listCart .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.listCart .item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.listCart .item .details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.listCart .item .details .name {
+    font-size: 1em;
+    color: #eee;
+}
+
+.listCart .item .details .price {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.listCart .quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.listCart .quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #555;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2) {
+    background-color: transparent;
+    color: #eee;
+    cursor: auto;
+}
+
+.listCart .item:nth-child(even) {
+    background-color: #eee1;
+}
+
+.listCart::-webkit-scrollbar {
+    width: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .listProduct {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .listProduct {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

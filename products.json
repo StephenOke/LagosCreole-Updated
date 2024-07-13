@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name":"Pap And Akara",
+        "price": 40,
+        "image": "image/papAndAkara.jpeg",
+        "category": "breakfast"
+    },
+    {
+        "id": 2,
+        "name":"Agege Bread",
+        "price": 50,
+        "image": "image/AgegeBread.webp"
+        ,"category": "breakfast"
+    },
+    {
+        "id": 3,
+        "name":"Moi Moi",
+        "price": 35,
+        "image": "image/moimoi.jpeg"
+        ,"category": "breakfast"
+    },
+    {
+        "id": 4,
+        "name":"Haitian Spaghetti",
+        "price": 40,
+        "image": "image/HatianSpaghetti.jpeg"
+        ,"category": "breakfast"
+    },
+    {
+        "id": 5,
+        "name":"Mais Moulin",
+        "price": 25,
+        "image": "image/MaisMoulin.webp"
+        ,"category": "breakfast"
+    },
+    {
+        "id": 6,
+        "name":"Labouyi Bannann",
+        "price": 25,
+        "image": "image/LabouyiBannann.jpeg"
+        ,"category": "breakfast"
+    }
+    ,
+    {
+        "id": 7,
+        "name":"Jollof Rice",
+        "price": 50,
+        "image": "image/JollofRice.jpeg"
+        ,"category": "lunch"
+    },
+    {
+        "id": 8,
+        "name":"Ofada Rice",
+        "price": 50,
+        "image": "image/ofadaRice.jpeg"
+        ,"category": "lunch"
+    },
+    {
+        "id": 9,
+        "name":"Pounded Yam",
+        "price": 45,
+        "image": "image/poundedYam.jpeg"
+        ,"category": "lunch"
+    },
+    {
+        "id": 10,
+        "name":"Soup Jomou",
+        "price": 30,
+        "image": "image/soupJomou.webp"
+        ,"category": "lunch"
+    },
+    {
+        "id": 11,
+        "name":"Diri Djon Djon",
+        "price": 50,
+        "image": "image/diriDjonDjon.jpeg"
+        ,"category": "lunch"
+    },
+    {
+        "id": 12,
+        "name":"Griot",
+        "price": 15,
+        "image": "image/griot.jpeg"
+        ,"category": "lunch"
+    },
+    {
+        "id": 13,
+        "name":"Pate (3)",
+        "price": 10,
+        "image": "image/miniMeatPie.webp"
+        ,"category": "dinner"
+    },
+    {
+        "id": 14,
+        "name":"Meat Pie",
+        "price": 15,
+        "image": "image/meatPie.jpeg"
+         ,"category": "dinner"
+    },
+    {
+        "id": 15,
+        "name":"Puff Puff (10)",
+        "price": 5,
+        "image": "image/puffpuff.jpeg"
+         ,"category": "dinner"
+    },
+    {
+        "id": 16,
+        "name":"Pickliz",
+        "price": 5,
+        "image": "image/pickliz.webp"
+         ,"category": "dinner"
+    },
+    {
+        "id": 17,
+        "name":"Dous Makos",
+        "price": 15,
+        "image": "image/DousMakòs.webp"
+         ,"category": "dinner"
+    },
+    {
+        "id": 18,
+        "name":"Pain Patate",
+        "price": 15,
+        "image": "image/PainPatate.jpeg"
+         ,"category": "dinner"
+    }
+
+   
+
+]

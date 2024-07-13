@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="image/Lagos Creole.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lagos Creole</title>
+    <link href="newMenuCss.css" rel="stylesheet">
+    <script src="menuJs.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="headerImage" src="image/Lagos Creole.png" alt="Logo">
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menujs.html">Menu</a></li>
+              <li><a href="catering.html">Catering</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a  href="menujs.html">
+                <button><em>ORDER HERE</em></button>
+              </a></li>
+              <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+              </div>
+            </ul>
+          </nav>
+    </header>
+    
+    <!-- Sections for breakfast, lunch, and dinner -->
+    <section class="Breakfast">
+        <a><h1 class="menuHeader" id="breakfast">Breakfast Combos</h1></a>
+        <hr class="hearderRule2">
+        <div class="listProduct" id="breakfastSection"></div>
+    </section>
+
+    <section class="Lunch">
+        <a><h1 class="menuHeader" id="lunch">Lunch Combos</h1></a>
+        <hr class="hearderRule2">
+        <div class="listProduct" id="lunchSection"></div>
+    </section>
+
+    <section class="Dinner">
+        <a><h1 class="menuHeader" id="dinner">Sides/Snacks</h1></a>
+        <hr class="hearderRule2">
+        <div class="listProduct" id="dinnerSection"></div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart"></div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <a class="footerLinks">
+            COME VISIT US.... Call us... (123)-456-7689
+            <p>© Copyright 2023. All Rights Reserved.</p>
+        </a>
+        <h4>Follow Us</h4>
+        <div class="footerLinks1">
+            <ul class="iconImages">
+                <li><a href="https://www.facebook.com/profile.php?id=100087972676512" target="_blank" title="Facebook"><img class="icon" src="image/facebookLogo.png" alt="facebook Logo"></a></li>
+                <li><a href="https://twitter.com/LaunchPad_LEH" target="_blank" title="Twitter"><img class="icon" src="image/twitterLogo.png" alt="twitter Logo"></a></li>
+                <li><a href="https://www.instagram.com/launchpad_lehman/" target="_blank" title="Instagram"><img class="icon" src="image/instagramLogo.jpeg" alt="instagram Logo"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

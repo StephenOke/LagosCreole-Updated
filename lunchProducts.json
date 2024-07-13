@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":"Jollof Rice",
+        "price": 50,
+        "image": "image/JollofRice.jpeg"
+    },
+    {
+        "id": 2,
+        "name":"Ofada Rice",
+        "price": 50,
+        "image": "image/ofadaRice.jpeg"
+    },
+    {
+        "id": 3,
+        "name":"Pounded Yam",
+        "price": 45,
+        "image": "image/poundedYam.jpeg"
+    },
+    {
+        "id": 4,
+        "name":"Soup Jomou",
+        "price": 30,
+        "image": "image/soupJomou.webp"
+    },
+    {
+        "id": 5,
+        "name":"Diri Djon Djon",
+        "price": 50,
+        "image": "image/diriDjonDjon.jpeg"
+    },
+    {
+        "id": 6,
+        "name":"Griot",
+        "price": 15,
+        "image": "image/griot.jpeg"
+    }
+]
