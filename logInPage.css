@@ -41,6 +41,35 @@ header img {
     width: 100px;
     height: auto;
 }
+/* Navigation Styles */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #2d5675;
+}
 
 .wrapper {
     width: 100%;
