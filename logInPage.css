@@ -3,13 +3,14 @@ html {
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-*{
-    margin: 0;
+
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body{
+
+body {
     background-color: #447076;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,65 +19,73 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-.wrapper{
-    width: 420px;
+
+.wrapper {
+    width: 100%;
+    max-width: 420px; /* Ensure it doesn't overflow */
     color: beige;
     border-radius: 10px;
     padding: 30px 40px;
-
 }
-.wrapper h1{
+
+.wrapper h1 {
     font-size: 36%;
     text-align: center;
-
-
 }
-.wrapper .input-box{
+
+.wrapper .input-box {
     width: 100%;
     height: 50px;
-    background:salmon;
+    background: salmon;
     margin: 30px 0;
 }
-.input-box input{
+
+.input-box input {
     width: 100%;
     height: 100%;
     border: none;
     outline: none;
-    border: 2px solid rgba(red, green, blue, alpha);
-    border-radius:40px ;
+    border: 2px solid rgba(255, 0, 0, 0.7); /* Use valid RGBA */
+    border-radius: 40px;
     font-size: 18px;
     color: aliceblue;
-    padding: 20px,45px,20px,20px;
+    padding: 20px 45px 20px 20px;
 }
-.input-box input::placeholder{
-    color:aliceblue ;
+
+.input-box input::placeholder {
+    color: aliceblue;
 }
-.input-box i{
+
+.input-box i {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
 }
-.wrapper remember-forgot{
+
+.wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
-    font-size: 14.5;
+    font-size: 14.5px; /* Added unit */
     margin: -15px 0 15px;
 }
-.remember-forgot label input{
-accent-color: aliceBlue;
-margin-right: 3px;
 
+.remember-forgot label input {
+    accent-color: aliceblue;
+    margin-right: 3px;
 }
-.remember-forgot{
+
+.remember-forgot {
     color: #447076;
     text-decoration: none;
 }
+
 .remember-forgot a:hover {
     text-decoration: underline;
 }
-.wrapper .btn{
+
+.wrapper .btn {
     width: 100%;
     height: 45px;
     background: aliceblue;
@@ -86,16 +95,23 @@ margin-right: 3px;
     color: #333;
     font-weight: 600;
 }
+
+.wrapper .btn:hover {
+    background-color: #f0f0f0; /* Hover effect */
+}
+
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
     margin-top: 20px;
 }
+
 .register-link p a {
     color: #333;
     text-decoration: none;
     font-weight: 600;
 }
-.register-link p a:hover{
+
+.register-link p a:hover {
     text-decoration: underline;
 }
